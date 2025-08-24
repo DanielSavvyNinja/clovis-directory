@@ -4,6 +4,23 @@
   <meta charset="UTF-8">
   <title>Clovis Chamber Business Widget</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Force green background always */
+    #mni-widgets-1754016918889 .mn-scroll-item {
+      background-color: #94c23c !important;
+      color: #ffffff !important;
+    }
+
+    #mni-widgets-1754016918889 .mn-scroll-item:hover {
+      background-color: #94c23c !important;
+      color: #ffffff !important;
+    }
+
+    #mni-widgets-1754016918889 .mn-scroll-link {
+      color: #ffffff !important;
+    }
+  </style>
 </head>
 <body style="margin:0; padding:20px; font-family: sans-serif; background:#f9f9f9;">
   <h2>New Chamber Businesses</h2>
@@ -26,11 +43,15 @@
         position: relative;
       }
       #@id .mn-scroll-item {
-        background-color: #94c23c;
+        background-color: #94c23c !important;
         border-radius: 0;
-        color: #ffffff;
+        color: #ffffff !important;
         margin: 0 0 4px;
         position: relative;
+      }
+      #@id .mn-scroll-item:hover {
+        background-color: #94c23c !important;
+        color: #ffffff !important;
       }
       #@id .mn-scroll-name,
       #@id .mn-scroll-teaser {
@@ -39,7 +60,7 @@
         position: relative;
       }
       #@id .mn-scroll-link {
-        color: inherit;
+        color: #ffffff !important;
         text-decoration: none;
       }
       #@id .mn-scroll-link:hover {
